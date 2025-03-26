@@ -37,8 +37,8 @@ myFunction();
  */
 
 function myFunction2() {
-    var elements = document.querySelectorAll('.estilo-2');
-    var element2 = elements[elements.length - 1];
+    var elements = document.querySelectorAll('p');
+    var element2 = elements[elements.length - 2];
     console.log(element2.textContent);
     element2.classList.add('ocultar');
 }
